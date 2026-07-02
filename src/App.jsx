@@ -1,10 +1,20 @@
-// import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "./assets/vite.svg";
-// import heroImg from "./assets/hero.png";
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
+import Counter from "./componenets/Counter";
+import TodoApp from "./componenets/ToDoList";
+import UserProfileCard from "./componenets/ProfileCard";
+import SearchBox from "./componenets/SearchBox";
 
 function App() {
-  return <h1>hello world</h1>;
+  return (
+    <div>
+      <Counter />
+      <TodoApp />
+      <UserProfileCard />
+      <SearchBox />
+    </div>
+  );
 }
 
 export default App;
